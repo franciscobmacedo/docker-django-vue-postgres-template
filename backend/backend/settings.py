@@ -15,6 +15,7 @@ import os
 import environ
 from corsheaders.defaults import default_headers
 
+# If coming from docker, variables are stored in environment. Otherwise, we must read them
 root = environ.Path(__file__) - 2  # get root of the project
 env = environ.Env()
 environ.Env.read_env(root() + '/.env')  # reading .env file
