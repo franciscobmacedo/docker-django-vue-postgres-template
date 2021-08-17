@@ -1,4 +1,4 @@
-:ship: Docker :: Django :: Vue :: PostgreSQL
+# :ship: Docker :: Django :: Vue :: PostgreSQL
 
 This is a simple template to create a full-stack application with:
  - **Backend** in Django (Python)
